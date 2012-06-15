@@ -26,6 +26,7 @@
 <!--javascript includes -->
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-modal.js"></script>
 <script type="text/javascript" src="js/sizer.js"></script>
 
 </head>
@@ -77,7 +78,7 @@
 	</div>
     <div class="row-fluid">
     	<footer class="span12 footer">
-        	Copyright 2012 E5Xellence - <a href="http://www.erfmarketing.com" class="footer-a">ERF</a>
+        	Copyright 2012 E5Xellence - <a class="footer-a" href="http://www.erfmarketing.com">ERF</a>
         </footer>
     </div>
 </div>
