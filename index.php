@@ -48,28 +48,28 @@
         </div>
         <div class="span10 main-content">			
         	<div class="span6 top-hover">
-            	<a href="#" class="pull-right top-hover-a">LA</a>
+            	<a href="#" class="pull-right top-hover-a">Empower</a>
             </div>
             <div class="span6">&nbsp;</div>
             <div class="span12 spacer5em"></div>
 			<div class="row">	            
                 <div class="span3 side-hover">
-                    <a href="#" class="side-hover-a pull-right">LA</a>
+                    <a href="#" class="side-hover-a pull-right">Enrich</a>
                 </div>
                 <div class="span7">&nbsp;</div>
                 <div class="span2 side-hover">
-                	<a href="#" class="side-hover-a pull-left">LA</a>
+                	<a href="#" class="side-hover-a pull-left">Educate</a>
                 </div>
             </div>
             <div class="span12 spacer15em"></div>
             <div class="span12 spacer15em"></div>
             <div class="row">	            
                 <div class="span3 side-hover">
-                    <a href="#" class="side-hover-a pull-right">LA</a>
+                    <a href="#" class="side-hover-a pull-right">Energize</a>
                 </div>
                 <div class="span7">&nbsp;</div>
                 <div class="span2 side-hover">
-                	<a href="#" class="side-hover-a pull-left">LA</a>
+                	<a href="#" class="side-hover-a pull-left">Engage</a>
                 </div>
             </div>   
 
