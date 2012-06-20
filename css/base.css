@@ -62,6 +62,15 @@ img.center-img {
 	z-index:-1;
 	left-margin:25%;	
 }
+.page-header-h1 {
+	padding:.5em;
+	font-wieght:400;
+	text-align:center;
+	font-size:4em;
+	text-align-center;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color:#E58F1F;
+}
 .top-hover-a {
 	padding:.5em;
 	font-wieght:400;
@@ -111,6 +120,9 @@ img.center-img {
 	background-image:none;
 	background-color:#685E54;
 	color:#FFFFFF;
+}
+.spacer1em {
+	height:1em;	
 }
 .spacer5em {
 	height:5em;	

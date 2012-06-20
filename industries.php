@@ -70,13 +70,14 @@
         </div>
         <div class="span10 main-content">
         	<div class="span10 about-content">
-            <div class="spacer5em span12 hidden-phone">&nbsp;</div>
+            <div class="spacer1em span12 hidden-phone">&nbsp;</div>
+            <h1 class="span12 page-header-h1">Industries</h1>
         		<!--<img class="span3 pull-right about-image" src="http://placehold.it/150x250" />-->
         		<p class="about-content-p">
         		Medical Homes. ACOs. Electronic Health Records and Meaningful Use.
         		</p>
         		<p class="about-content-p">
-        		With all the rapid changes in healthcare these days, it can be tempting for providers to chase the “new new thing.”
+        		With all the rapid changes in healthcare these days, it can be tempting for providers to chase the “new new thing.�?
         		</p>
         		<p class="about-content-p">
         		But government incentives and technological advances will never solve the most basic business problem of shrinking revenues and growing expenses. For that, you need happier customers and more committed employees – a change from within, not without.

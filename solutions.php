@@ -70,7 +70,8 @@
         </div>
         <div class="span10 main-content">
         	<div class="span10 about-content">
-            <div class="spacer5em span12 hidden-phone">&nbsp;</div>
+            <div class="spacer1em span12 hidden-phone">&nbsp;</div>
+            <h1 class="span12 page-header-h1">Solutions</h1>
             	
         		<img class="pull-right thumbnail image-p" src="img/solutions.png" />
                 
