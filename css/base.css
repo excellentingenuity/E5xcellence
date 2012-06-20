@@ -2,7 +2,7 @@
 /*
  colors
 orange : #E58F1F;
-gray : #99AAA5;
+gray :    #918A6F;  ----old---#99AAA5;
 Dark grey : #685E54;
 white : #FFFFFF;
 
@@ -13,7 +13,7 @@ body {
 
 }
 .left-menu {
-	background-color:#99AAA5;	
+	background-color:#918A6F;	
 	border:medium #685E54 solid;
 	border-top:none;
 	border-bottom-left-radius:5px;
@@ -66,31 +66,39 @@ img.center-img {
 	padding:.5em;
 	font-wieght:400;
 	text-align:center;
-	font-size:1.3em;
+	font-size:2.3em;
 	width:5em;
-	color:#FFFFFF;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color:#E58F1F;
+	/*color:#FFFFFF;
 	background-color:#685E54;
-	border-radius:5px;
+	border-radius:5px;*/
 }
 .side-hover-a{
 	padding:.5em;
 	font-wieght:400;
-	font-size:1.3em;
+	font-size:2.3em;
 	text-align:center;
 	width:5em;
-	color:#FFFFFF;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color:#E58F1F;
+	/*color:#FFFFFF;
 	background-color:#685E54;
-	border-radius:5px;
+	border-radius:5px;*/
 }
 .side-hover-a:hover{
-	color:#FFFFFF;
-	background-color:#E58F1F;
+	/*color:#FFFFFF;
+	background-color:#E58F1F;*/
+	color:#685E54;
 	text-decoration:none;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 }
 .top-hover-a:hover{
-	color:#FFFFFF;
-	background-color:#E58F1F;
+	/*color:#FFFFFF;
+	background-color:#E58F1F;*/
+	color:#685E54;
 	text-decoration:none;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 }
 .header-nav-a{
 	background:none;
@@ -128,4 +136,87 @@ img.center-img {
 .footer-a:hover{
 	color:#685E54;
 	text-decoration:none;
+}
+/*about page */
+.about-content {
+	background-image:url(../img/content-background.png);
+	
+	font-weight:800;
+	font-size:1.3em;
+	padding:2em;
+	
+}
+.about-image {
+	max-width:150px;
+	margin-right:1em;
+}
+.about-content-p {
+	
+}.about-content-quote {
+	
+}
+/*contact page */
+.contact-block {
+	background-color:#918A6F;	
+	border:medium #685E54 solid;
+	border-radius:5px;
+	text-align:center;
+	padding:1em;
+	color:#FFFFFF;	
+}
+.contact-block-btn {
+	background:none;
+	background-image:none;
+	background-color:#E58F1F;	
+}
+.contact-block-btn:hover{
+	background:none;
+	background-image:none;
+	background-color:#685E54;
+	color:#FFFFFF;
+}
+.cancel-btn {
+	background:none;
+	background-image:none;
+	background-color:#685E54;
+	color:#FFFFFF;	
+}
+.cancel-btn:hover {
+	background:none;
+	background-image:none;
+	background-color:#E58F1F;
+	color:#FFFFFF;
+}
+#contact-page-block {
+	font-size:1.8em;
+	line-height:1em;
+	text-align:center;
+	padding:.5em;
+}
+.contact-form {
+	font-size:1.3em;
+	color:#FFFFF;
+	border-radius:5px;
+	border:thick solid #685E54;;
+	margin-bottom:1em;
+	padding-right:1em;
+
+}
+.control-group {
+	color:#000000;
+	margin-left:.5em;
+}
+.form-actions {
+	background-image:none;
+	background:none;
+	text-align:center;
+}
+input[type=text] { width: 100%; box-sizing: border-box; height: 28px; }
+textarea[type=text] { width: 80%; box-sizing: border-box; height: 56px; }
+.image-p {
+	max-width:350px;
+	margin:.5em;	
+}
+.pop-img {
+	max-width:100%;
 }

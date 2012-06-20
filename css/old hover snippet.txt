@@ -1,0 +1,30 @@
+.top-hover-a {
+	padding:.5em;
+	font-wieght:400;
+	text-align:center;
+	font-size:1.3em;
+	width:5em;
+	color:#FFFFFF;
+	background-color:#685E54;
+	border-radius:5px;
+}
+.side-hover-a{
+	padding:.5em;
+	font-wieght:400;
+	font-size:1.3em;
+	text-align:center;
+	width:5em;
+	color:#FFFFFF;
+	background-color:#685E54;
+	border-radius:5px;
+}
+.side-hover-a:hover{
+	color:#FFFFFF;
+	background-color:#E58F1F;
+	text-decoration:none;
+}
+.top-hover-a:hover{
+	color:#FFFFFF;
+	background-color:#E58F1F;
+	text-decoration:none;
+}
