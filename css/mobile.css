@@ -16,7 +16,7 @@ white : #FFFFFF;
 	height:50%;	
 }
 .ul-phone-hovers {
-	list-style:none;
+	list-style:none !important;
 	margin-left:0px;
 }
 .li-phone-hover {

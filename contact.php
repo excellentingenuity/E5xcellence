@@ -64,7 +64,12 @@
 <body>
 <div class="container-fluid">
 	<div class="row-fluid">
-		<div class="span2 left-menu">
+		<div class="top-logo span4">
+             <a class="side-menu" href="index.php">
+            <img class="nav-img" src="img/white-logo2.png" />
+            </a>
+        
+		<div class="span6 left-menu">
         	<ul class="nav nav-list side-menu-ul">
             	<li class="side-menu-li">
         			<a class="side-menu" href="index.php">
@@ -92,8 +97,9 @@
                 </li>
             </ul>
         </div>
+        </div>
         <div class="header">
-        	<div class="span10 header-nav">
+        	<div class="span8 header-nav">
             	<a href="about.php" class="pull-right header-nav-a btn hidden-phone">About Us</a>
                 <a href="contact.php" class="pull-right header-nav-a btn hidden-phone">Contact Us</a>
             </div>
@@ -112,11 +118,11 @@
         	<a href="#" class="contact-block-btn btn btn-primary" data-dismiss="modal" id="confirmation_close">Close</a>
         </div>
    		</div>
-        <div class="span10 main-content">
+        <div class="span8 main-content">
         	<div class="span10 about-content">
             <div class="spacer5em span12 hidden-phone">&nbsp;</div>
             	<div class="span2">&nbsp;</div>
-            	<div class="span4 contact-form">
+            	<div class="span5 contact-form">
                 	<form id="contact_form" class="form-verical" method="post" action="contact.php?action=send"> 
                     <fieldset>
                         <legend class="about-header" id="contact_form_para">Contact Us <br />
@@ -188,7 +194,7 @@
 </html>
 <script>
 $(document).ready(function() {
-	sizer("left-menu", .90);
+	sizer("left-menu", .60);
 	sizer("main-content", .90);
 	sizer("about-content", .90);
 });

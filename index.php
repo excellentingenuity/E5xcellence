@@ -37,8 +37,14 @@
 <body>
 <div class="container-fluid">
 	<div class="row-fluid">
-		<div class="span2 left-menu">
+    	<div class="top-logo span4">
+             <a class="side-menu" href="index.php">
+            <img class="nav-img" src="img/white-logo2.png" />
+            </a>
+        
+		<div class="span6 left-menu">
         	<ul class="nav nav-list side-menu-ul">
+            	
             	<li class="side-menu-li">
         			<a class="side-menu" href="index.php">
                     <img class="nav-img" src="img/home.png" /><br />
@@ -65,36 +71,37 @@
                 </li>
             </ul>
         </div>
+        </div>
         <div class="header">
-        	<div class="span10 header-nav">
+        	<div class="span8 header-nav">
             	<a href="about.php" class="pull-right header-nav-a btn hidden-phone">About Us</a>
                 <a href="contact.php" class="pull-right header-nav-a btn hidden-phone">Contact Us</a>
             </div>
         </div>
-        <div class="span10 main-content hidden-phone">			
+        <div class="span8 main-content hidden-phone">			
         	<div class="span6 top-hover">
             	<a href="#" class="pull-right top-hover-a" id="empower" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/empower.jpg' /> Creating employee competence and satisfaction by sharing limited authority with them.  It allows them to make decisions and take initiative in order to improve service and deliver bottom line results." data-original-title="Empower">Empower</a>
             </div>
             <div class="span6">&nbsp;</div>
             <div class="span12 spacer5em"></div>
 			<div class="row">	            
-                <div class="span3 side-hover">
+                <div class="span4 side-hover">
                     <a href="#" class="side-hover-a pull-right" id="enrich" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/enrich.jpg' /> Vertically restructuring an employees position in order to provide them with greater responsibilities.  The goal is to increase the employee's satisfaction by giving greater authority, autonomy, and control over the way the job is accomplished." data-original-title="Enrich">Enrich</a>
                 </div>
-                <div class="span7">&nbsp;</div>
-                <div class="span2 side-hover">
-                	<a href="#" class="side-hover-a pull-left" id="educate" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/educate.jpg' /> Imparting instruction or information for a certain level of knowledge or skill that improves the employee's performance." data-original-title="Educate">Educate</a>
+                <div class="span5">&nbsp;</div>
+                <div class="span3 side-hover pull-left">
+                	<a href="#" class="side-hover-a" id="educate" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/educate.jpg' /> Imparting instruction or information for a certain level of knowledge or skill that improves the employee's performance." data-original-title="Educate">Educate</a>
                 </div>
             </div>
             <div class="span12 spacer15em"></div>
             <div class="span12 spacer15em"></div>
             <div class="row">	            
-                <div class="span3 side-hover">
+                <div class="span4 side-hover">
                     <a href="#" class="side-hover-a pull-right" id="energize" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/energize.jpg' /> Creating a circuit and/or an environment that is self-activating and self-perpetuating." data-original-title="Energize">Energize</a>
                 </div>
-                <div class="span7">&nbsp;</div>
-                <div class="span2 side-hover">
-                	<a href="#" class="side-hover-a pull-left" id="engage" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/engage.jpg' /> Driving business results by aligning the goals and efforts of the employee with the goals of the company." data-original-title="Engage">Engage</a>
+                <div class="span5">&nbsp;</div>
+                <div class="span3 side-hover pull-left">
+                	<a href="#" class="side-hover-a" id="engage" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/engage.jpg' /> Driving business results by aligning the goals and efforts of the employee with the goals of the company." data-original-title="Engage">Engage</a>
                 </div>
             </div>   
         </div>
@@ -122,9 +129,9 @@
 				{
 					$("#empower").popover({placement:'bottom'});
 					$("#energize").popover({placement:'right'});
-					$("#enrich").popover({placement:'right'});
+					$("#enrich").popover({placement:'bottom'});
 					$("#engage").popover({placement:'left'});
-					$("#educate").popover({placement:'left'});
+					$("#educate").popover({placement:'bottom'});
 					$("#empower-phone").popover({placement:'right'});
 					$("#energize-phone").popover({placement:'right'});
 					$("#enrich-phone").popover({placement:'right'});
@@ -143,13 +150,13 @@
 </html>
 <script>
 $(document).ready(function() {
-	sizer("left-menu", .90);
+	sizer("left-menu", .60);
 	sizer("main-content", .90);
 });
 </script>
 <script>
 $(window).resize(function(e) {
-  	sizer("left-menu", .90);
+  	sizer("left-menu", .60);
 	sizer("main-content", .90);  
 });
 </script>
