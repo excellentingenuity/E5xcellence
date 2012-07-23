@@ -1,0 +1,35 @@
+/*CSS Document*/
+/*
+ colors
+orange : #E58F1F;
+gray :    #918A6F;  ----old---#99AAA5;
+Dark grey : #685E54;
+white : #FFFFFF;
+
+*/
+.phone-content {
+	background:url(../img/E5X.png);
+	background-repeat:no-repeat;
+	background-clip:padding-box;
+	background-position:center;
+	background-size:contain;
+	height:50%;	
+}
+.ul-phone-hovers {
+	list-style:none !important;
+	margin-left:0px;
+}
+.li-phone-hover {
+	margin-bottom:1.5em;
+}
+.about-image {
+	max-height:125px;
+	max-width:75px;
+}
+.image-p {
+	max-width:200px;	
+}
+.page-header-h1 {
+    font-size:2.5em;
+    font-weight:200;
+}

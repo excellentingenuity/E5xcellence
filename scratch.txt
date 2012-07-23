@@ -1,0 +1,26 @@
+<div class="row">	            
+                <div class="span4 side-hover">
+                    <a href="#" class="side-hover-a pull-right left-hover" id="energize" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/energize.jpg' /> Creating a circuit and/or an environment that is self-activating and self-perpetuating." data-original-title="Energize">Energize</a>
+                </div>
+                <div class="span5 mid-logo">&nbsp;</div>
+                <div class="span3 side-hover pull-left">
+                	<a href="#" class="side-hover-a" id="educate" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/educate.jpg' /> Imparting instruction or information for a certain level of knowledge or skill that improves the employee's performance." data-original-title="Educate">Educate</a>
+                </div>
+            </div>
+            <div class="span12 spacer10em"></div>
+            <div class="span12 spacer10em"></div>
+            <div class="row">	            
+                <div class="span4 side-hover">
+                    <a href="#" class="side-hover-a pull-right left-hover" id="enrich" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/enrich.jpg' /> Vertically restructuring an employee&#39;s position in order to provide them with greater responsibilities.  The goal is to increase the employee's satisfaction by giving greater authority, autonomy, and control over the way the job is accomplished." data-original-title="Enrich">Enrich</a>
+                </div>
+                <div class="span5">&nbsp;</div>
+                <div class="span3 side-hover pull-left">
+                	<a href="#" class="side-hover-a" id="empower" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/empower.jpg' /> Creating employee competence and satisfaction by sharing limited authority with them.  It allows them to make decisions and take initiative in order to improve service and deliver bottom line results." data-original-title="Empower">Empower</a>
+                </div>
+            </div>
+            
+    background:url(../img/E5X.png);
+    background-repeat:no-repeat;
+    background-clip:padding-box;
+    background-position:center;
+    background-size:100%, 100%;
