@@ -331,3 +331,45 @@ textarea[type=text] { width: 80%; box-sizing: border-box; height: 56px; }
 	border-top:medium solid #FFFFFF;
 	vertical-align:top;
 }
+.blurb {
+	text-align:left;
+	padding:1em;
+	padding-left:2em;
+	margin-left:12%;
+	width:70%;
+	background-color:#918A6F;
+	color:#E58F1F;
+	border:medium #685E54 solid;
+	border-radius:5px;
+}
+.blurb-p{
+	text-align:left;
+	color:#FFFFFF;
+}
+.media {
+    z-index:3;
+    position:relative;
+    margin-right:0px;
+    
+    
+    float:right !important;
+    margin-left:0px !important;
+
+}
+.media-icons-ul{
+    background-color:#918A6F;
+    color:#FFFFFF;
+    z-index:4;
+    list-style:none;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border:medium #685E54 solid;
+    border-right:none;
+    width:4em;
+    padding:1em;
+    
+    
+}
+.media-icons-ul > li {
+    margin-bottom:1em;
+}

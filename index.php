@@ -84,22 +84,29 @@
                 	<img class="nav-img hidden-phone" src="img/about.jpg" />
                 	About Us</a>
                 </li>                
-                <li class="side-menu-li visible-phone">
-                	<a class="side-menu" href="contact.php">Contact Us</a>
+                <li class="side-menu-li">
+                	<a class="side-menu" href="contact.php">
+                	<img class="nav-img hidden-phone" src="img/contact.png" />
+                	Contact Us</a>
                 </li>
             </ul>
         </div>
 
         <div class="header">
         	<div class="span10 header-nav">
-        	    <span class="pull-right">
-        	    <a href="https://www.facebook.com/E5Xcellence" class="header-nav-a hidden-phone"><img src="img/facebook.png" /></a>
-        	    <a href="https://twitter.com/#!/e5xcellence" class="header-nav-a hidden-phone"><img src="img/twitter.png" /></a>
-        	    <a href="#" class="header-nav-a hidden-phone"><img src="img/linkedin.png" /></a>
-        	    <a href="https://plus.google.com/b/103461152209711124940/103461152209711124940/posts" class="header-nav-a hidden-phone"><img src="img/google-plus-black.png" /></a>
-            	<a href="about.php" class="header-nav-a btn hidden-phone">About Us</a>
-                <a href="contact.php" class="header-nav-a btn hidden-phone">Contact Us</a>
-                </span>
+				
+                <div class="blurb">
+                	
+                		<h2>Widgets. Wisdom. Wombats. <i>Whatever.</i></h2><p class="blurb-p">
+                		It doesn't matter what you're selling, exactly. At the end of the day, every business is in the business of making people feel like they matter.
+                	</p>
+                	<p class="blurb-p">
+                	At E5Xcellence, we understand that people are the difference between success and failure. That's why we've developed a proven program to revolutionize the way customers and employees interact with your company. We help you listen, respond, and reward to create a culture that truly values the human element.
+                	</p>
+                	<p class="blurb-p">
+                	Customers who are loyal for life and employees who think like owners - that's what E5Xcellence is all about.
+                	</p>
+                </div>
             </div>
         </div>
         
@@ -131,8 +138,15 @@
 			        <div class="span12 side-hover pull-left">
                         <a href="#" class="side-hover-a" id="educate" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/educate.jpg' /> Imparting instruction or information for a certain level of knowledge or skill that improves the employee's performance." data-original-title="Educate">Educate</a>
                     </div>
-                    <div class="span12 spacer10em"></div>
-                    <div class="span12 spacer5em"></div>
+                    <span class="media pull-right hidden-phone">
+			    <ul class="media-icons-ul">
+			    <li><a href="https://www.facebook.com/E5Xcellence" class="header-nav-a hidden-phone"><img src="img/facebook.png" /></a></li>
+        	    <li><a href="https://twitter.com/#!/e5xcellence" class="header-nav-a hidden-phone"><img src="img/twitter.png" /></a></li>
+        	    <li><a href="#" class="header-nav-a hidden-phone"><img src="img/linkedin.png" /></a></li>
+        	    <li><a href="https://plus.google.com/b/103461152209711124940/103461152209711124940/posts" class="header-nav-a hidden-phone"><img src="img/google-plus-black.png" /></a></li>
+                </ul>
+                </span>
+
                     <div class="span12 spacer1em"></div>
                     <div class="span12 spacer1em"></div>
                     <div class="span12 spacer1em"></div>
@@ -141,6 +155,7 @@
                         <a href="#" class="side-hover-a" id="empower" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/empower.jpg' /> Creating employee competence and satisfaction by sharing limited authority with them.  It allows them to make decisions and take initiative in order to improve service and deliver bottom line results." data-original-title="Empower">Empower</a>
                     </div>
 			    </div>
+			    
 			</div>
         </div>
         <div class="span4 phone-content visible-phone">			
@@ -214,14 +229,14 @@
 <script>
 $(document).ready(function() {
 	sizer("left-menu", .90);
-	sizer("main-content-index", .90);
-	sizer("mid-logo", .80);
+	sizer("main-content-index", .45);
+	sizer("mid-logo", .35);
 });
 </script>
 <script>
 $(window).resize(function(e) {
   	sizer("left-menu", .90);
-	sizer("main-content-index", .90);
-	sizer("mid-logo", .80);  
+	sizer("main-content-index", .45);
+	sizer("mid-logo", .35);  
 });
 </script>
