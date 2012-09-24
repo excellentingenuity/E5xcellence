@@ -68,11 +68,23 @@
                     <img class="nav-img hidden-phone" src="img/solutions.png" />
                     Solutions</a>
                 </li>
-                <li class="side-menu-li">
-                	<a class="side-menu" href="services.php">
+                <li class="side-menu-li dropdown">
+                	<a class="side-menu dropdown-toggle" data-toggle="dropdown">
                     <img class="nav-img hidden-phone" src="img/services.png" />
                     Services</a>
-                </li>                 
+                    <ul class="dropdown-menu side-menu-ul2">
+                    	<li class="dropdown-submenu side-menu-li2">
+                    		<a class="side-menu" href="services.php#medical">
+                    		<img class="nav-img hidden-phone" src="img/services-medical.png" />
+                    		Medical</a>
+                    	</li>
+                    	<li class="dropdown-submenu side-menu-li2">
+                    		<a class="side-menu" href="services.php#corporate">
+                    		<img class="nav-img hidden-phone" src="img/corporate-services.png" />
+                    		Corporate</a>
+                    	</li>
+                    </ul>
+                </li>                
                 <li class="side-menu-li">
                 	<a class="side-menu" href="testimonials.php">
                 	<img class="nav-img hidden-phone" src="img/testimonials.png" />

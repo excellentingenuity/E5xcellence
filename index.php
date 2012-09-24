@@ -69,10 +69,22 @@
                     <img class="nav-img hidden-phone" src="img/solutions.png" />
                     Solutions</a>
                 </li>
-                <li class="side-menu-li">
-                	<a class="side-menu" href="services.php">
+                <li class="side-menu-li dropdown">
+                	<a class="side-menu dropdown-toggle" data-toggle="dropdown">
                     <img class="nav-img hidden-phone" src="img/services.png" />
                     Services</a>
+                    <ul class="dropdown-menu side-menu-ul2">
+                    	<li class="dropdown-submenu side-menu-li2">
+                    		<a class="side-menu" href="services.php#medical">
+                    		<img class="nav-img hidden-phone" src="img/services-medical.png" />
+                    		Medical</a>
+                    	</li>
+                    	<li class="dropdown-submenu side-menu-li2">
+                    		<a class="side-menu" href="services.php#corporate">
+                    		<img class="nav-img hidden-phone" src="img/corporate-services.png" />
+                    		Corporate</a>
+                    	</li>
+                    </ul>
                 </li>                 
                 <li class="side-menu-li">
                 	<a class="side-menu" href="testimonials.php">
@@ -95,18 +107,7 @@
         <div class="header">
         	<div class="span10 header-nav">
 				
-                <div class="blurb">
-                	
-                		<h2>Widgets. Wisdom. Wombats. <i>Whatever.</i></h2><p class="blurb-p">
-                		It doesn't matter what you're selling, exactly. At the end of the day, every business is in the business of making people feel like they matter.
-                	</p>
-                	<p class="blurb-p">
-                	At E5Xcellence, we understand that people are the difference between success and failure. That's why we've developed a proven program to revolutionize the way customers and employees interact with your company. We help you listen, respond, and reward to create a culture that truly values the human element.
-                	</p>
-                	<p class="blurb-p">
-                	Customers who are loyal for life and employees who think like owners - that's what E5Xcellence is all about.
-                	</p>
-                </div>
+                
             </div>
         </div>
         
@@ -124,12 +125,14 @@
                     </div>
                     <div class="span12 spacer10em"></div>
                     <div class="span12 spacer5em"></div>
-                    <div class="span12 spacer1em"></div>
-                    <div class="span12 spacer1em"></div>
+                    
+                   
                     <div class="span12 spacer1em"></div>
                     <div class="span12 side-hover">
                         <a href="#" class="side-hover-a pull-right left-hover" id="enrich" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/enrich.jpg' /> Vertically restructuring an employee&#39;s position in order to provide them with greater responsibilities.  The goal is to increase the employee's satisfaction by giving greater authority, autonomy, and control over the way the job is accomplished." data-original-title="Enrich">Enrich</a>
                     </div>
+                    <div class="span12 spacer1em"></div>
+                    <div class="span12 spacer1em"></div>
 			    </div>
 			    <div class="col_mid span6 mid-logo"><img class="mid-logo-img" src="img/E5X.png" /></div>
 			    <div class="col_right span3 pull-left">
@@ -147,13 +150,15 @@
                 </ul>
                 </span>
 
-                    <div class="span12 spacer1em"></div>
-                    <div class="span12 spacer1em"></div>
+                   
+                    
                     <div class="span12 spacer1em"></div>
                     
                     <div class="span12 side-hover pull-left">
                         <a href="#" class="side-hover-a" id="empower" rel="popover" data-content="<img class='pop-img thumbnail pull-right' src='img/empower.jpg' /> Creating employee competence and satisfaction by sharing limited authority with them.  It allows them to make decisions and take initiative in order to improve service and deliver bottom line results." data-original-title="Empower">Empower</a>
                     </div>
+                    <div class="span12 spacer1em"></div>
+                    <div class="span12 spacer1em"></div>
 			    </div>
 			    
 			</div>
@@ -180,9 +185,9 @@
   				<script>
 				$(function ()
 				{
-					$("#empower").popover({placement:'left'});
+					$("#empower").popover({placement:'top'});
 					$("#energize").popover({placement:'right'});
-					$("#enrich").popover({placement:'right'});
+					$("#enrich").popover({placement:'top'});
 					$("#engage").popover({placement:'bottom'});
 					$("#educate").popover({placement:'left'});
 					$("#empower-phone").popover({placement:'right'});
@@ -229,14 +234,14 @@
 <script>
 $(document).ready(function() {
 	sizer("left-menu", .90);
-	sizer("main-content-index", .45);
-	sizer("mid-logo", .35);
+	sizer("main-content-index", .90);
+	sizer("mid-logo", .90);
 });
 </script>
 <script>
 $(window).resize(function(e) {
   	sizer("left-menu", .90);
-	sizer("main-content-index", .45);
-	sizer("mid-logo", .35);  
+	sizer("main-content-index", .90);
+	sizer("mid-logo", .90);  
 });
 </script>

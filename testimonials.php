@@ -54,11 +54,23 @@
                     <img class="nav-img hidden-phone" src="img/solutions.png" />
                     Solutions</a>
                 </li>
-                <li class="side-menu-li">
-                	<a class="side-menu" href="services.php">
+                <li class="side-menu-li dropdown">
+                	<a class="side-menu dropdown-toggle" data-toggle="dropdown">
                     <img class="nav-img hidden-phone" src="img/services.png" />
                     Services</a>
-                </li>                 
+                    <ul class="dropdown-menu side-menu-ul2">
+                    	<li class="dropdown-submenu side-menu-li2">
+                    		<a class="side-menu" href="services.php#medical">
+                    		<img class="nav-img hidden-phone" src="img/services-medical.png" />
+                    		Medical</a>
+                    	</li>
+                    	<li class="dropdown-submenu side-menu-li2">
+                    		<a class="side-menu" href="services.php#corporate">
+                    		<img class="nav-img hidden-phone" src="img/corporate-services.png" />
+                    		Corporate</a>
+                    	</li>
+                    </ul>
+                </li>                
                 <li class="side-menu-li hidden">
                 	<a class="side-menu" href="testimonials.php">
                 	<img class="nav-img hidden-phone" src="img/testimonials.png" />
@@ -94,51 +106,51 @@
             <h1 class="span12 page-header-h1">Testimonials</h1>
         		<img class="span3 pull-right about-image  hiddem-phone" src="img/testimonials.png" />
         		<p class="about-content-p">
-        		“Have known Tim for over 15 years and worked directly with him for 7 years. He is a strategic & systems thinker who easily views things at a high level, and yet knows how to translate and communicate at a detailed level for front-end results. While working with him at Laurens County Healthcare System he transformed the Patient Financial Services area during some challenging times with healthcare changes that occurred at both the state and national levels. The hospital was managed by QHR (Quorum Health Resources) and the outcome metrics were constantly in the in the top 25%, achieving an award for best practices at one of the national meetings. Also, while at LCHCS, we implemented a Service Excellence Program and Tim was selected as a chairman of the Service Excellence Team. He led a rigorous three year implementation team to hardwire changes. Also, he was able to integrate a continuous process improvement mindset to staff, realizing that as the healthcare and local environments change, internal processes need to be evaluated for potential improvements. Since leaving LCHCS in 2007, I have maintained close contact with Tim as a great colleague and subject matter expert in Service Excellence, Revenue Cycle Management, Change Management, and his general healthcare industry knowledge.”<br />
+        		"Have known Tim for over 15 years and worked directly with him for 7 years. He is a strategic & systems thinker who easily views things at a high level, and yet knows how to translate and communicate at a detailed level for front-end results. While working with him at Laurens County Healthcare System he transformed the Patient Financial Services area during some challenging times with healthcare changes that occurred at both the state and national levels. The hospital was managed by QHR (Quorum Health Resources) and the outcome metrics were constantly in the in the top 25%, achieving an award for best practices at one of the national meetings. Also, while at LCHCS, we implemented a Service Excellence Program and Tim was selected as a chairman of the Service Excellence Team. He led a rigorous three year implementation team to hardwire changes. Also, he was able to integrate a continuous process improvement mindset to staff, realizing that as the healthcare and local environments change, internal processes need to be evaluated for potential improvements. Since leaving LCHCS in 2007, I have maintained close contact with Tim as a great colleague and subject matter expert in Service Excellence, Revenue Cycle Management, Change Management, and his general healthcare industry knowledge."<br />
         		-Dan E.
         		</p><br />
         		<p class="about-content-p">
-“I have seen Tim’s accomplishments as his predecessor at Laurens Hospital. And can attest that he is a true professional with great accomplishments. He is truly appreciated for his Rev. Cycle knowledge and his kindness to people. It is my privilege to know Tim and follow his work.”<br />
+"I have seen Tim's accomplishments as his predecessor at Laurens Hospital. And can attest that he is a true professional with great accomplishments. He is truly appreciated for his Rev. Cycle knowledge and his kindness to people. It is my privilege to know Tim and follow his work."<br />
 				-Gary M.
 				</p><br />
         		<p class="about-content-p">
-“Tim is a quality man with personal and professional integrity. Loyal, trustworthy and has a strong passion for service excellence. Works collaboratively within the organization.” <br />
+"Tim is a quality man with personal and professional integrity. Loyal, trustworthy and has a strong passion for service excellence. Works collaboratively within the organization." <br />
         		-Nancy H.
         		</p><br />
         		<p class="about-content-p">
-“Carolina AAHAM had the distinct honor to feature Tim as one of our keynotes for the 2011 Annual Meeting. Tim's knowledge and presentation of Service Excellence was exceptional. His passion for Excellence is contagious. Our attendees gave Tim the highest praise.”<br />
+"Carolina AAHAM had the distinct honor to feature Tim as one of our keynotes for the 2011 Annual Meeting. Tim's knowledge and presentation of Service Excellence was exceptional. His passion for Excellence is contagious. Our attendees gave Tim the highest praise."<br />
         		-John C.
         		</p><br />
         		<p class="about-content-p">
-        		“I came to know Tim when he was the Project Manager of a complex, organization-wide service improvement project. The project involved all levels of a significant healthcare system as well as external stake holders. The Project was a resounding success, due to Tim's leadership and project management skills.” <br />
+        		"I came to know Tim when he was the Project Manager of a complex, organization-wide service improvement project. The project involved all levels of a significant healthcare system as well as external stake holders. The Project was a resounding success, due to Tim's leadership and project management skills." <br />
         		-James S.
         		</p><br />
                 <p class="about-content-p">
-        		“Tim –  Enjoyed meeting you and the session yesterday.  I believe you are ‘right on’ with your message.  When people know you care and they feel a part of something bigger than themselves, then you have a great team.  Even as individuals, when we know we are highly valued and have been enlisted in ‘something bigger’, we will experience ‘real life.’<br />
+        		"Tim -  Enjoyed meeting you and the session yesterday.  I believe you are 'right on' with your message.  When people know you care and they feel a part of something bigger than themselves, then you have a great team.  Even as individuals, when we know we are highly valued and have been enlisted in 'something bigger', we will experience 'real life.'<br />
         		-Ty C.
         		</p><br />                
         		<p class="about-content-p">
-“Tim, I know your new endeavor will be a success.  Good for you, doing what you love.  It is inspiring to all of us.”<br />
+"Tim, I know your new endeavor will be a success.  Good for you, doing what you love.  It is inspiring to all of us."<br />
         		-Sharon R.
         		</p><br />               
         		 <p class="about-content-p">
-“Tim – just a quick note to say that you hit another home run yesterday during your presentation.  It’s clear to me that you are certainly in your element.”
+"Tim - just a quick note to say that you hit another home run yesterday during your presentation.  It's clear to me that you are certainly in your element."
 	        		-Steve L.
         		</p><br />                
         		<p class="about-content-p">
-“Tim . . . thanks so much for presenting at our “Annual CRCA Graduation and Awards Program!”  The reviews were great, and you did an outstanding job (once again!).
+"Tim . . . thanks so much for presenting at our "Annual CRCA Graduation and Awards Program!"  The reviews were great, and you did an outstanding job (once again!).
 SCHFMA certainly appreciates all your efforts in furthering education for it members, for sure!
-Again, thanks for a wonderful presentation, and we look forward to hearing from you again soon!”
+Again, thanks for a wonderful presentation, and we look forward to hearing from you again soon!"
         		<br />
         		-Ronnie H.
         		</p><br />               
         		 <p class="about-content-p">
-“Tim,
-. . . Thank you for this presentation.  I will share it with our training team that developed S.M.A.R.T. customer service training from S.C.O.R.E.  It is very refreshing to hear and see such passion and enthusiasm for service excellence for the patient from a Director of Patient Financial Services.” <br />
+"Tim,
+. . . Thank you for this presentation.  I will share it with our training team that developed S.M.A.R.T. customer service training from S.C.O.R.E.  It is very refreshing to hear and see such passion and enthusiasm for service excellence for the patient from a Director of Patient Financial Services." <br />
         		 -Chris S.
         		</p><br />                
         		<p class="about-content-p">
-“. . . I really appreciated your presentation.  It was one of the best sessions I have ever seen, and I work on Programs/ Education for four state HFMA chapters!” <br />        	
+". . . I really appreciated your presentation.  It was one of the best sessions I have ever seen, and I work on Programs/ Education for four state HFMA chapters!" <br />        	
 				-Rob D.
         		</p><br />
         	</div>			

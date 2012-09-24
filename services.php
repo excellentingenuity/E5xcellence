@@ -119,7 +119,8 @@
         	<div class="span12 about-content">
             
             <h1 class="span12 page-header-h1">Services</h1>
-        		<img class="pull-left thumbnail image-p hidden-phone" src="img/services.png" />
+            <h2 id="medical" class="span12 page-header-h2">Medical</h2>
+        		<img class="pull-left thumbnail image-p hidden-phone" src="img/services-medical.png" />
         		<p class="about-content-p">
         		Medical Homes. ACOs. Electronic Health Records and Meaningful Use.
         		</p>
@@ -127,10 +128,10 @@
         		With all the rapid changes in healthcare these days, it can be tempting for providers to chase the new "new thing".
         		</p>
         		<p class="about-content-p">
-        		But government incentives and technological advances will never solve the most basic business problem of shrinking revenues and growing expenses. For that, you need happier customers and more committed employees – a change from within, not without.
+        		But government incentives and technological advances will never solve the most basic business problem of shrinking revenues and growing expenses. For that, you need happier customers and more committed employees - a change from within, not without.
         		</p>
         		<p class="about-content-p">
-        		At E(5)xcellence, we understand that culture change isn’t easy in the healthcare industry. That’s why we’ve developed a proven, five-step process that turns skeptics into true believers who deliver excellent service every time.
+        		At E(5)xcellence, we understand that culture change isn't easy in the healthcare industry. That's why we've developed a proven, five-step process that turns skeptics into true believers who deliver excellent service every time.
         		</p><br /><br />
         		<p class="about-content-p">
         		If you want <em>your</em> practice to be:<br />
@@ -139,10 +140,22 @@
                     <li>A great place to connect with purpose</li>
                     <li>A great place to receive care</li>
                 </ul><br />
-                … then we should talk. Call us today for a free consultation.
+                ... then we should talk. Call us today for a free consultation.
         		</p>
                 <p class="about-content-p">
-        		We’d love to show you why <em>service to the Nth degree</em> is the most vital healthcare reform of all.
+        		We'd love to show you why <em>service to the Nth degree</em> is the most vital healthcare reform of all.
+        		</p>
+        	<h2 id="corporate" class="span12 page-header-h2">Corporate</h2>
+        	<img class="pull-right thumbnail image-p hidden-phone" src="img/corporate-services.png" />
+        	<h3>Widgets. Wisdom. Wombats. <i>Whatever.</i></h3><p class="about-content-p">
+        	
+        		It doesn't matter what you're selling, exactly. At the end of the day, every business is in the business of making people feel like they matter.
+        		</p>
+        		<p class="about-content-p">
+        		At E5Xcellence, we understand that people are the difference between success and failure. That's why we've developed a proven program to revolutionize the way customers and employees interact with your company. We help you listen, respond, and reward to create a culture that truly values the human element.
+        		</p>
+        		<p class="about-content-p">
+        		Customers who are loyal for life and employees who think like owners - that's what E5Xcellence is all about.
         		</p>
         	</div>			
         </div>

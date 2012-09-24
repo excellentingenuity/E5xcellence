@@ -66,6 +66,15 @@ li.side-menu-li:hover {
 	background-color:#E58F1F;
 	border-bottom: #685E54 medium solid;
 }
+.side-menu-li2 {
+	background-color:#918A6F;
+	border-bottom:#E58F1F medium solid;
+}
+.side-menu-ul2 {
+	margin-left:15em;
+	margin-top:-90%;
+	z-index:3;	
+}
 
 .main-content {
     background-image:url(../img//E5X.png);
@@ -100,6 +109,15 @@ img.center-img {
 	text-align:center;
 	font-size:4em;
 	text-align:center;
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color:#E58F1F;
+}
+.page-header-h2 {
+	padding-bottom:.5em;
+	padding-top:.5em;
+	font-weight:100;
+	text-align:left;
+	font-size:3em;
 	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 	color:#E58F1F;
 }
